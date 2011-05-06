@@ -4,3 +4,18 @@ Because ajax validation for forms in the current version of the CakePHP framewor
 So my goal was writing a new javascript library that does most of the work and which doen't require extra files or duplicated validation lines and keep most of the CakePHP code intact.
 How Cakephp handles validation for forms is really nicely done throught the models. The plugin I've writen keeps that all intact. I hope you can use it for you own project, drop a comment if so! You can find the code and README at Github.
 https://github.com/melvinvandenbout/Cakephp-AJAX-Validation
+
+-----
+
+AJAX Validation for CAKEPHP
+	 	
+- Make sure you make up your form the Cake way in your views.
+- add this line in your controller: var $components  = array('RequestHandler');
+- I'm using an empty layout called 'ajax' for returning the AJAX response ( $this->layout = 'ajax'; ), create the file /app/views/layouts/ajax.ctp with only this inside it: <?php echo $content_for_layout; ?>
+- to add any validation rules you can use the CAKEPHP way as described here: http://book.cakephp.org/view/1143/Data-Validation
+- the value of this two lines ( in add.tp) you need to changes to your ID's
+.- var formId    = '#addModel';  // id of your form <form id=""
+.- var button    = '#submit';  // id of your submit <input id="" type="submit"
+
+Need help? contact me @MelvinvdBout
+ 	 	
