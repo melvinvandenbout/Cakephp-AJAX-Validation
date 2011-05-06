@@ -1,5 +1,11 @@
 AJAX Validation for CAKEPHP
 
-Make sure you make up your form the cAKE way.
+ - Make sure you make up your form the cAKE way in your views.
+ - add this line in your controller: var $components	= array('RequestHandler');
+ - I'm using an empty layout called 'ajax' for returning the AJAX response ( $this->layout = 'ajax'; ), create the file /app/views/layouts/ajax.ctp with only this inside it: <?php echo $content_for_layout; ?>
+ - to add any validation rules you can use the CAKEPHP way as described here: http://book.cakephp.org/view/1143/Data-Validation
+ - the value of this two lines ( in add.tp) you need to changes to your ID's
+        - var formId		= '#addModel';	// id of your form <form id=""
+	- var button		= '#submit';	// id of your submit <input id="" type="submit"
 
 Need help? contact me @MelvinvdBout
