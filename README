@@ -1,9 +1,12 @@
-Because ajax validation for forms in the current version of the CakePHP framework is a international issue I thought lets write this one in english. I have been using Cakephp for over one year now and every time I'm building an application with it I'm facing the ajax validation problem. The problem is that Cakephp doesn't have AJAX validation. There are several self build plugins for this which all require some serious PHP and jquery/Javascript skills. Most of these plugins let you make new files or extra (duplicated) javascript rules for the validation. Extra files en duplicated validation rules? Yeah, that is not the way to go for me. :)
+Because ajax validation for forms in the current version of the CakePHP framework is a international issue I thought lets write this one in english. 
+I have been using Cakephp for over one year now and every time I'm building an application with it I'm facing the ajax validation problem. 
+The problem is that Cakephp doesn't have AJAX validation. There are several self build plugins for this which all require some serious PHP and jquery/Javascript skills.
+Most of these plugins let you make new files or extra (duplicated) javascript rules for the validation. 
+Extra files en duplicated validation rules? Yeah, that is not the way to go for me. :)
 
 
 So my goal was writing a new javascript library that does most of the work and which doen't require extra files or duplicated validation lines and keep most of the CakePHP code intact.
-How Cakephp handles validation for forms is really nicely done throught the models. The plugin I've writen keeps that all intact. I hope you can use it for you own project, drop a comment if so! You can find the code and README at Github.
-https://github.com/melvinvandenbout/Cakephp-AJAX-Validation
+How Cakephp handles validation for forms is really nicely done throught the models. The plugin I've writen keeps that all intact. I hope you can use it for you own project, drop a comment if so! 
 
 -----
 
