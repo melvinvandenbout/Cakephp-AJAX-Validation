@@ -95,7 +95,7 @@ var ajaxValidation = (function(){
 		},
 		
 		/* @method	camelize
-		 * @author	@MelvinvdBout
+		 * @author	http://jamnite.blogspot.com/2009/05/cakephp-form-validation-with-ajax-using.html
 		 * @version	1.0
 		 * @desc	make from the first character and the one after every _ a capital letter
 		 */
